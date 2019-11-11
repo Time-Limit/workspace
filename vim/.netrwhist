@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/zhumingxiao/go/src/go.megvii-inc.com/securitycore/facecluster/components'
+let g:netrw_dirhist_8='/home/zhumingxiao/go/src/go.megvii-inc.com/securitycore/facecluster/service/api'
+let g:netrw_dirhist_7='/home/zhumingxiao/go/src/go.megvii-inc.com/securitycore/facecluster/components'
+let g:netrw_dirhist_6='/home/zhumingxiao/go/src/go.megvii-inc.com/securitycore/facecluster/components/controller'
+let g:netrw_dirhist_5='/home/zhumingxiao/go/src/go.megvii-inc.com/securitycore/dependency'
+let g:netrw_dirhist_4='/home/zhumingxiao/go/src/go.megvii-inc.com/securitycore/docker'
+let g:netrw_dirhist_3='/home/zhumingxiao/go/src/go.megvii-inc.com/securitycore/facecluster/cmd/controller/debug'
+let g:netrw_dirhist_2='/home/zhumingxiao/go/src/go.megvii-inc.com/securitycore/facecluster/components/controller'
+let g:netrw_dirhist_1='/home/zhumingxiao/tmp'
