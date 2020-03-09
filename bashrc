@@ -139,3 +139,4 @@ __prompt_command() {
 
 export TMOUT=0
 export TERM=xterm-256color
+source /etc/profile

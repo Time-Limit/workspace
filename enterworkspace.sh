@@ -5,7 +5,7 @@ source ~/bin/workspaceconfig.sh
 EnterVimYCM()
 {
 	containerID=`cat ${WORKSPACE_VIM_YCM_CID}`
-	sudo docker exec -it ${containerID} bash
+	sudo docker exec -it ${containerID} env LANG=C.UTF-8 bash
 }
 
 RestartVimYCM()
@@ -19,6 +19,7 @@ StartVimYCM()
 {
 	rm -rf ${WORKSPACE_VIM_YCM_CID}
 	sudo docker run \
+		-p 8080:8080 \
 	    --env GOPATH=${GOPATH} \
 		--env PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/vim/bin:/root/bin" \
 		--volume ${GOPATH}:${GOPATH} \
